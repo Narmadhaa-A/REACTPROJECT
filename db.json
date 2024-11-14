@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "testuser",
+      "email": "test@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "718c",
+      "username": "harini__velumani",
+      "email": "727723eucs072@skcet.ac.in",
+      "password": "123456"
+    },
+    {
+      "id": "3e5b",
+      "username": "nana",
+      "email": "727723eucs141@skcet.ac.in",
+      "password": "123456"
+    },
+    {
+      "id": "2d4b",
+      "username": "nana",
+      "email": "727723eucs138@skcet.ac.in",
+      "password": "1234"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+.homepage {
+    text-align: center;
+    padding: 200px;
+    
+  }
+  
+  body
+  {
+    background-size: cover;
+    background-image: url("https://png.pngtree.com/back_origin_pic/05/05/90/f5781e41e1fe11d6b408671b82151a18.jpg");
+  }
+  .header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header p {
+    color: #666;
+    font-size: 1.2rem;
+    margin: 10px 0 30px;
+  }
+  
+  .action-buttons .button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-button {
+    background-color: #28a745; /* Green color for Sign Up */
+  }
+  
+  .login-button {
+    background-color: #007bff; /* Blue color for Login */
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }

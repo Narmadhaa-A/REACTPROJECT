@@ -1,0 +1,66 @@
+/* Overall container styles */
+.upcoming-events-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensures full height for better layout */
+}
+  
+/* Heading styles */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+/* Events list styles */
+.events-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between cards */
+}
+  
+/* Individual event card styles */
+.event-card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Subtle gray border */
+    border-radius: 10px; /* Slightly more rounded corners */
+    padding: 15px;
+    width: 250px; /* Fixed width for uniformity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Stronger shadow for depth */
+    text-align: center; /* Center align text */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+}
+  
+/* Event image styles */
+.event-image {
+    width: 100%; /* Full width of the card */
+    height: 180px; /* Adjust height for better image fit */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 12px; /* Space below the image */
+    object-fit: cover; /* Ensure images fill the space without distortion */
+}
+  
+/* Button styles */
+.add-to-cart-button {
+    background-color: #007bff; /* Blue background for action button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth background color transition */
+}
+  
+.add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+  
+/* Card hover effect */
+.event-card:hover {
+    transform: scale(1.05); /* Scale up on hover for effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+}
